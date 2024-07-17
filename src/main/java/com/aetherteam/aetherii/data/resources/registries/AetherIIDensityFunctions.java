@@ -25,6 +25,8 @@ public class AetherIIDensityFunctions extends AetherIIDensityFunctionBuilders {
         context.register(EROSION, DensityFunctions.shiftedNoise2d(shiftX, shiftZ, 0.375, noise.getOrThrow(AetherIINoises.EROSION)).abs());
         context.register(DEPTH, DensityFunctions.yClampedGradient(0, 384, -1.5, 1.5));
         context.register(AMPLIFICATION, DensityFunctions.weirdScaledSampler(getFunction(function, AetherIIDensityFunctions.BASE_3D_NOISE), noise.getOrThrow(AetherIINoises.AMPLIFICATION), DensityFunctions.WeirdScaledSampler.RarityValueMapper.TYPE1));
+        context.register(Y_FACTOR, DensityFunctions.add(getFunction(function, Y), getFunction(function, HEIGHT_VARIATOR)));
+        context.register(HEIGHT_VARIATOR, buildHeightVariator(function));
 
         context.register(ISLAND_DENSITY, buildIslandDensity(function));
         context.register(SHATTERED_ISLANDS, buildShatteredIslands(function));

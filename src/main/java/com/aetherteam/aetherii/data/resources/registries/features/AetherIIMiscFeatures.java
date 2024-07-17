@@ -93,7 +93,7 @@ public class AetherIIMiscFeatures extends AetherIIFeatureBuilders {
                 16.35F,
                 AetherIIDensityFunctions.getFunction(function, AetherIIDensityFunctions.COASTS_HIGHFIELDS),
                 Optional.of(DensityFunctions.zero()),
-                UniformInt.of(112, 156),
+                UniformInt.of(120, 164),
                 0.0F,
                 HolderSet.direct(Block::builtInRegistryHolder, AetherIIBlocks.AETHER_GRASS_BLOCK.get())
         ));
@@ -103,7 +103,7 @@ public class AetherIIMiscFeatures extends AetherIIFeatureBuilders {
                 16.35F,
                 AetherIIDensityFunctions.getFunction(function, AetherIIDensityFunctions.COASTS_ARCTIC),
                 Optional.empty(),
-                UniformInt.of(120, 180),
+                UniformInt.of(132, 196),
                 0.0F,
                 HolderSet.direct(Block::builtInRegistryHolder, AetherIIBlocks.AETHER_GRASS_BLOCK.get())
         ));
@@ -130,7 +130,7 @@ public class AetherIIMiscFeatures extends AetherIIFeatureBuilders {
                         AetherIIDensityFunctions.getFunction(function, AetherIIDensityFunctions.LAKES_NOISE),
                         AetherIIDensityFunctions.getFunction(function, AetherIIDensityFunctions.LAKES_FLOOR),
                         AetherIIDensityFunctions.getFunction(function, AetherIIDensityFunctions.LAKES_BARRIER),
-                        ConstantInt.of(124),
+                        ConstantInt.of(140),
                         new NoiseProvider(
                                 100L,
                                 new NormalNoise.NoiseParameters(0, 1.0),
