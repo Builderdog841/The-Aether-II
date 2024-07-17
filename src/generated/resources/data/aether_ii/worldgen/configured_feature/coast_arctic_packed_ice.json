@@ -13,8 +13,8 @@
     "size": 16.35,
     "valid_blocks": "aether_ii:aether_grass_block",
     "y_range": {
-      "max_inclusive": 196,
-      "min_inclusive": 132
+      "max_inclusive": 180,
+      "min_inclusive": 120
     }
   }
 }

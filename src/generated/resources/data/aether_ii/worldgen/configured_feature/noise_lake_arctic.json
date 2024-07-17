@@ -3,7 +3,7 @@
   "config": {
     "frozen": true,
     "height": {
-      "value": 140
+      "value": 124
     },
     "lake_barrier_noise": "aether_ii:highlands/lakes/lake_barrier",
     "lake_floor_noise": "aether_ii:highlands/lakes/lake_floor",
