@@ -183,7 +183,8 @@ public class AetherIIDensityFunctionBuilders {
                 .addPoint(-0.3F, continentsSpline)
                 .addPoint(0.55F, continentsSpline)
                 .addPoint(0.65F, 5.0F)
-                .addPoint(0.75F, 1.0F)
+                .addPoint(0.75F, 2.0F)
+                .addPoint(0.85F, 1.0F)
                 .build();
 
         return CubicSpline.builder(erosion)
