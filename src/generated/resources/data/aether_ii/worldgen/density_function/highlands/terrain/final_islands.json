@@ -24,8 +24,8 @@
                       "argument1": 0.2,
                       "argument2": {
                         "type": "minecraft:add",
-                        "argument1": -0.03,
-                        "argument2": "aether_ii:highlands/terrain/base/base_3d_noise"
+                        "argument1": -0.05,
+                        "argument2": "aether_ii:highlands/continents"
                       }
                     },
                     "argument2": {
@@ -43,7 +43,7 @@
                       "type": "minecraft:mul",
                       "argument1": {
                         "type": "minecraft:mul",
-                        "argument1": -0.19,
+                        "argument1": -0.2,
                         "argument2": "aether_ii:highlands/terrain/base/factor"
                       },
                       "argument2": "aether_ii:highlands/terrain/base/terrain_shaper"
@@ -60,7 +60,7 @@
                 "type": "minecraft:mul",
                 "argument1": {
                   "type": "minecraft:mul",
-                  "argument1": -0.19,
+                  "argument1": -0.2,
                   "argument2": "aether_ii:highlands/terrain/base/factor"
                 },
                 "argument2": "aether_ii:highlands/terrain/base/terrain_shaper"
